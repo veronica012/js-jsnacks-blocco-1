@@ -1,5 +1,4 @@
-//stampa il quadrato dei numeri da 0 a 100
-for(var i = 0; i < 1001; i++) {
-    var quadrato = Math.pow(2, i);
-    console.log(quadrato);
+//stampa le potenze di 2 fino a 1000, 2 alla 9 = 512
+for (var i = 0; Math.pow(2,i) < 1000; i++) {
+    console.log(Math.pow(2,i));
 }
